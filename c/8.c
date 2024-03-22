@@ -16,6 +16,6 @@ int main() {
     for (int i=1;i<=a;i++){
         c*=i;
     }
-    printf("%d\n%d",b,c);
+    printf("%d\n%d",b, c);
     return 0;
 }
