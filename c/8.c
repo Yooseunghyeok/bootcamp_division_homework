@@ -7,6 +7,15 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
-
+    int a;
+    scanf("%d",&a);
+    int b=0, c=1;
+    for (int i=1;i<=a;i++){
+        b+=i;
+    }
+    for (int i=1;i<=a;i++){
+        c*=i;
+    }
+    printf("%d\n%d",b,c);
     return 0;
 }

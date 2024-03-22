@@ -7,6 +7,17 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
-
+    int a=0;
+    while (a<=0){
+    scanf("%d",&a);
+    if(a<=0)
+        printf("X\n"); 
+    else break;
+    }
+    int b=0;
+    for(int i=1;i<=a;i++){
+        b+=i;
+    }
+    printf("%d",b);
     return 0;
 }
